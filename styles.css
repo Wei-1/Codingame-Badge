@@ -1,0 +1,35 @@
+input.inputid {
+  display: inline-block;
+  font-family: 'Dejavu Sans','Arial';
+  border: 1;
+  box-sizing: border-box;
+}
+div.badge {
+  display: inline-block;
+  font-family: 'Dejavu Sans','Arial';
+}
+div.badge div {
+  display: inline-block;
+  float: left;
+  color: #FFF;
+  text-shadow: 0px .1em 0px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+div.badge div:first-child, div.badge div:first-child span {
+  border-top-left-radius: .25em;
+  border-bottom-left-radius: .25em;
+  background: #555555;
+}
+div.badge div:last-child, div.badge div:last-child span {
+  border-top-right-radius: .25em;
+  border-bottom-right-radius: .25em;
+  background: #0c0;
+}
+div.badge div span {
+  display: inline-block;
+  background: linear-gradient(180deg, rgba(187, 187, 187, .1) 0%, rgba(0, 0, 0, .1) 100%);
+  padding: .25em .5em;
+  box-sizing: border-box;
+}
