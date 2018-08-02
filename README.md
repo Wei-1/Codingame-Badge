@@ -1,5 +1,7 @@
 # Codingame-Badge
 
+![sample](sample.png)
+
 https://wei-1.github.io/Codingame-Badge/
 
 ## Usage
