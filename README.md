@@ -1,3 +1,16 @@
+# Update Note - 2021-06-08
+
+The DEMO website for Codingame-Badge is no longer working because the cross origin server is now limited from public usage.
+ - https://github.com/Rob--W/cors-anywhere/issues/301
+
+The POST API from Codingame is still solid at 2021-06-08.
+
+One will need to deploy their own cross origin server and modify the server address in the JS file.
+
+This repo will no longer be maintained.
+
+----
+
 # Codingame-Badge
 
 ![sample](sample.png)
